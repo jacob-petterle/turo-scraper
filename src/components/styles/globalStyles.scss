@@ -1,0 +1,51 @@
+// Text Styles
+a {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.tco-text {
+  font-family: 'prox-light', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.tco-text-upper {
+  font-family: 'prox-light', sans-serif;
+  font-size: 28px;
+  letter-spacing: .11em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+// Class Useful for Vertical Centering
+
+.vertical-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+$cream: #FCFCF4;
+$red: #e61725;
+$maroon: #bf585b;
+$grey: #989991;
+$teal: #71dbc7;
+$black: #000000;
+
+$primary: $red;
+$secondary: $teal;
+$background: $cream;
+$success: $teal;
+$info: $maroon;
+$warning: $red;
+$danger: $red;
+$link: $teal;
+
+// Import (The Following Must Be In This Order At Bottom Of File!)
+
+@import "node_modules/bootstrap/scss/bootstrap";
