@@ -1,5 +1,4 @@
 // Text Styles
-
 a {
   &:hover {
     cursor: pointer;
@@ -31,27 +30,22 @@ a {
 }
 
 
-// Map Styles
-
-.mapStyle {
-  height: 69.05vh;
-  width: 100%;
-}
-
 $cream: #FCFCF4;
 $red: #e61725;
 $maroon: #bf585b;
 $grey: #989991;
 $teal: #71dbc7;
+$black: #000000;
 
 $primary: $red;
 $secondary: $teal;
 $background: $cream;
 $success: $teal;
-$info: $grey;
-$warning: $maroon;
+$info: $maroon;
+$warning: $red;
 $danger: $red;
-$link: $maroon;
+$link: $teal;
 
 
-@import "~bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
+
