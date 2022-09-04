@@ -1,15 +1,21 @@
 import React from 'react';
+import { ErrorBoundary } from 'react-error-boundary';
 import ReactDOM from 'react-dom/client';
 import './components/styles/index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
+import App from './App';
+import AppErrorHandler from './components/error_handlers/AppErrorHandler';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ErrorBoundary FallbackComponent={AppErrorHandler}>
+      <App />
+    </ErrorBoundary>
   </React.StrictMode>
 );
 
