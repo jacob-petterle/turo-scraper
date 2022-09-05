@@ -1,5 +1,3 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
 import './App.scss';
 
 import AppProvider from './providers/AppProvider';
