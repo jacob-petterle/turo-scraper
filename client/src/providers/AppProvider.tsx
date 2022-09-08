@@ -1,4 +1,5 @@
 import React from 'react';
+import { MainLayout } from '../components/layout/MainLayout';
 
 
 function AppProvider() {
@@ -7,7 +8,9 @@ function AppProvider() {
   // TODO Add routing
   return (
     <React.Suspense fallback={<div>Loading...</div>}>
-      
+      <MainLayout>
+        <div>Content</div>
+      </MainLayout>
     </React.Suspense>
   );
 }

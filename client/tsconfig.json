@@ -20,12 +20,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@": ["src/"],
+      "@src/*": ["./*"],
+      "@assets/*": ["assets/*"],
+      "@componenets/*": ["components/*"],
     }
   },
   "include": [
-    "src"
+    "custom.d.ts"
   ]
 }
