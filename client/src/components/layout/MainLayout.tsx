@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import {Col} from "react-bootstrap";
 
-
+import {getListingCount} from "@features/totals/api/getListingCount";
 
 
 const Sidebar = () => {
@@ -31,15 +31,16 @@ const Header = () => {
   );
 }
 
+
 const Dashboard = () => {
-  let listingCount: number = 0;
+  const [listingCount, setCount] = React.useState(0);
 
   return (
     <Row>
       <Col>
         <h1>Dashboard</h1>
         <h2 >Current Listings: {listingCount}</h2>
-        <Button variant="primary" onClick={getListingCount()}>Update Listing Count</Button>
+        <Button variant="primary" onClick={ () => setCount(getListingCount(listingCount))}>Update Listing Count</Button>
       </Col>
     </Row>
   );

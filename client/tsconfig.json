@@ -26,9 +26,11 @@
       "@assets/*": ["assets/*"],
       "@componenets/*": ["components/*"],
       "@styles/*": ["components/styles/*"],
-    }
+      "@features/*": ["features/*"]
+    },
+    "plugins": [
   },
   "include": [
-    "custom.d.ts"
-  ]
+        "src"
+    ]
 }

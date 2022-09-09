@@ -1,5 +1,5 @@
 
 
-export const getListingCount = (): Promise<number> => {
-  return axios.get(`/count`);
+export const getListingCount = (curr_count: number): number => {
+  return curr_count + 1;
 }
