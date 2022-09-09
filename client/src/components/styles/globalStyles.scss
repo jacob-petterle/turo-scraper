@@ -47,5 +47,20 @@ $danger: $red;
 $link: $teal;
 
 
+.header {
+    background-color: $secondary;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
 @import "node_modules/bootstrap/scss/bootstrap";
 

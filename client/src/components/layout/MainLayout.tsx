@@ -2,6 +2,8 @@ import * as React from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import {Col} from "react-bootstrap";
+
 
 
 
@@ -24,21 +26,32 @@ const Sidebar = () => {
 
 const Header = () => {
   return (
-    <div style={{ height:"20vh" }}>
+    <div className="header">
     </div>
   );
 }
 
+const Dashboard = () => {
+  let listingCount: number = 0;
+
+  return (
+    <Row>
+      <Col>
+        <h1>Dashboard</h1>
+        <h2 >Current Listings: {listingCount}</h2>
+        <Button variant="primary" onClick={getListingCount()}>Update Listing Count</Button>
+      </Col>
+    </Row>
+  );
+}
+
 export const MainLayout = ({ children }: MainLayoutProps) => {
-  const [sidebarOpen, setSidebarOpen] = React.useState(false);
 
   return (
     <div className="h-screen flex overflow-hidden bg-gray-100">
       <Header />
       <Container>
-        <Row>
-          <Button onClick={() => setSidebarOpen(!sidebarOpen)}>Toggle Sidebar</Button>
-        </Row>
+        <Dashboard />
       </Container>
     </div>
 );
