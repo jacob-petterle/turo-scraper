@@ -26,9 +26,8 @@
       "@assets/*": ["assets/*"],
       "@componenets/*": ["components/*"],
       "@styles/*": ["components/styles/*"],
-      "@features/*": ["features/*"]
+      "features/*": ["features/*"]
     },
-    "plugins": [
   },
   "include": [
         "src"
