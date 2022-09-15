@@ -1,1 +1,216 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T17:37:38.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qsBCQ7IIjfGafuDfHPSS" version="20.3.0" type="device" pages="7"><diagram id="BEm-g0U1VOa67Bzzpys7" name="Problem &amp; Assumptions">vVfbbtswDP0aPwZI4iRdH5ukt2HdimVdh70MisXYQmXLleVc+vUjJbmx63UoNm0vsXNoXkQeUVQUL/L9pWZldqM4yGg85PsoXkbj8SieTPBByKFBpicOSbXgHjsCK/EEHhx6tBYcqs6HRilpRNkFE1UUkJgOxrRWu+5nGyW7XkuWQg9YJUz20XvBTebQd9PhEb8CkWaN59HQS3LWfOyBKmNc7VpQfB7FC62UcW/5fgGSstfkxeldvCJ9DkxDYd6icP5tGX+fqev5J32yOv2RQjZ7P/BWtkzWfsHReCbR3pyLLQVtDj4Ts8eaIp133lL/lO55YZW66LoBllCJtECbt1qtJeQttXVPSb9E3h7O4CMAtzQhhQR5CURAZhjVXyt0PPxSa/X7sP/QX6nVFglL5KOlisKA3rAELPVwUcO6Ao2UPAvlvdGoSuuwr7LLhIEBijEIcoshwmuWonF82i2oM+sXeg9YqAWZUFUl1vJANFdrgR5frVvQ7FZGaXiuKv9/ZX2sQdNqTdbn0t116FqGz2JvM971adjbhH+dwc+s4DZFSa2FqitiDrpVRTAPH7ChYvdSss6pMJmqDHkhD2HJcIUt/heeAlm/gVCm/juF/iV/aAdWzRbcCtjZxNNvXieZYxM62VO3zVWNxyCWfkMKwhYJdytt2sR2xpw9HLswSgQ9t5CJRAbLfjfiJGNFSj6lSpgRlpRWwAFPhVwU8HI9VuoCDRTQCnpOctdDW758UhjnokhtfFJsbcMLFMUZWmM2FaUWrcMwd/NicC93Rkjx5HMeyPoto0GKDlApiocWh1yfOVLJZdadFLhFtm7BbQ7DniXGjghMHoxIiDF1iaeKP9KEDJf6r86lUaXbL5j43FXZBxysi7299Yw7FscG9oRnJpcIjPCVSZoU46WEDUmwrpglJs88nAvOSXmucaR8YmtraIj/S4UDlx34p/NouiRLtVGVu1SQ4cpo9QALJZF+8bJQBVnZCClfQP3ZuhmUMRTYtyA/a1+CysHYGcFLB7Gf+/3NZzBqgN3xHjGZeCxr3SHi5kPm7y7ps/HjeI8vfsJv/h5vElbWupDF5z8B</diagram><diagram id="RTJvNLbxPvpqfqzpSxGH" name="Collaboration Diagram">3VrbdqM2FP0ar9U+2AtJgO3HcZw007iTmThtMo8yKEAHI48QscnXVxhxCxfTCQ6x8xJ0dEE6W2efLZkBuljv/mB4Y/9FTeIOoGLuBmg+gBAouib+RZYwtqjqNDZYzDFlo8ywdF5I0lNaA8ckfqEhp9TlzqZoNKjnEYMXbJgxui02e6Ju8a0bbJGSYWlgt2x9cExux9aJpmT2a+JYdvJmoMiaNU4aS4NvY5NucyZ0OUAXjFIeP613F8SNnJf4Je53VVObTowRj7fpYKy+mfr18vHLPX55uP9BbkIvGCI5Nx4mCyamWL8sUsZtalEPu5eZdcZo4JkkGlURpazNgtKNMAJh/JdwHkowccCpMNl87cpaMWEWPkb9R1pS/J6vm+/k4HEpzJe+EuasCSdMGuMFRLOu9Ys0+TRghmy1mF55Y+2zamjjm4VzO72+C+6GUG5NjplFeENDoKX4iY1PqJgPC0VHRlzMnefiTLDcgVbaLgNJPEicqjH7Z3u7/TKfgBfLnsGFYVz//fPPBLNn7AbyTf2CmIdQGUHtEIo7hz8mg4jnfDdRzHpFhfBNKFe6D5RBrmwH+8RYLWE8xxwLyx35GRCfVyK+wCvBvgWUsOtYnng2hJuikJk9E8YdQW+fZMXaMc14QxDfecGr/XiRxzfU8fh+WdpsoM1TDKIByK6wesm9snPGeHl06ndy2cVy9KEyApOp3O1h4Y2tQZCDf40Wk42sFTvQpyef8BJm6Yx+HUZQEaq6K1wyW4kHK3q4cJ3ISdIs3pLWlDDOYjaCdms7nCw3eL/ZtyL7FpGvRasUM7UApLlMOh9OZHmbZUKQgG3nsqCuvD0sKom3n3QlCUspENa4mbBSegRFehwfoscOmQ62ZLqaXdA501VCWma6+4BRYYkJ78Rorn7XNtEcVLVpJ8Q2nB6B2SrXNO01ErPo+54PvuZIzAdfG7l53Eis9Oqkz0hMjlznIzrqd25tNIpgRNNxIe0N3yg6ji8z4GGZkUJ49ckwRBxGE1sS9uyIffsRtQdCH017wHEvlFejI1ofs5RWRAkSPj3i8Rpo78SCNaJfBYUdBcavjgHxAmSv7jMmnNTQ6zmQahwcTRpHR9qkU1pNhkbqe2ke/TDNLqhnCXjWqX5VHoTrbBr47WjWt/EmejRC1xHEwdBhsl3FFLNYpQZs/LD2xHMbcDEMkXY/5ph9qHfA0LpWZGigt2To13HXnYABJX++qyiFeVEKarn2lSiFBVGaEXmXorSeZj/QRVg1pmVtc3bnQ9AcaGKL6JNOr8E6pcrK3xV6jcTizfKBi5quA6p73QLBSM/9FQ8nUFHjWqBNFFVB+qQ4fhzdXYiaSpzL0RmHpUyLrHT8OLF4rd/cDeGKVAS7DNdE6YBX2B5P6ZSlaknpzGcndoJsrU+OdoJMDkBNbr0h4VDUp/ntvDSjBj+aZkw2SV+asf09ZoeJqvUP3Xqf0g+Vfz1bGmIrC8efk/pDSrWTs6MzQslXNMnRGXaTUI7xa0FlxtR6CbKaLxQO3pz18JlJpdfUPqMvmWVTstqHo+NZH1wJqNMe75LrkW327ec1togvGv22RL+fmw54fXcEx3CkvZ8SqMSk3+v9//kp3K/RUeW69ZZaANb8cNY5HVXOsnwiCVjUiUdXQf5eFpycHKjfho0fC+jq27L/8dN9i4vyqtShLA2bmIGL2UmkEXTENCKK2ZfBMSzZ99Xo8j8=</diagram><diagram id="KF0MO2zLL9nNHn486hNj" name="Services Diagram">3VZdb5swFP01SNtDJbBDkj3mo/vQsk0aVVPtzbHvAM1gZkwJ+fW7FANBVRVWdV3aJy7nHl/b51zZdugq2X/QLIu+KAHSIa7YO3TtEOKR2Rw/NVI1iE/fNUCoY2FJPRDEB7Cga9EiFpAPiEYpaeJsCHKVpsDNAGNaq3JI+6nkcNaMhXAPCDiT99FtLEzUoHPf7fGPEIdRO7Pn2kzCWrIF8ogJVR5B9NKhK62UaaJkvwJZi9fq0ox7/0C2W5iG1IwZsAnmV1/FzVWaHtRsUQUL8H5c2Cq3TBZ2ww6ZSqy33GEQ1sF3+F1AbrDwgnNV4GTEDUDfxhxaLuY6ut2sqVoFNY4RUC/Cw3QZxQaCjPE6W2LPIBaZRNq0XQ5oA/sH9+l16mHbgUrA6AopdgCZWcFtxxFq/8veP681JTrybmoxZlsm7Er3qmJghf0LkclpkdfLF6aqN/3fqtLTqgYcpYjT8My1nbjnpu3kcdq6AY9AFJLpF6Hzs54MRbSS1zdGLTUVBz9gZsvLMcfvRqWhAZ0gbc0Mw88WNxypIh/XzHjtZHXIKxmj2pqelnrX+LLZdQDjv8I7t74VBsuAxfPmuvb8p/GH0qE/1Bvpz8z/R/6MOLk/Q3WB+c6e12UJcc/NkhHH/qcEX2U5kt4E9O1rc2QyfT5H8Ld/n97ljl759PIP</diagram><diagram id="gduqD52Sczb5Gq0pqgNj" name="Draft Sequence Steps">5VhNc9owEP01PobxR2zMMYG0aZPOdIZD06OwhK2psIgsg8mv7wrLH7IxSWhJ0wkHZvW8Wsnv7QotljddFZ8FWiffOCbMcm1cWN7Mct0wdOBbAbsS8MZuCcSC4hJyGmBOn4gGbY3mFJPMcJScM0nXJhjxNCWRNDAkBN+abkvOzFXXKCY9YB4h1kd/UCwT/Vq+3eC3hMZJtbJj6ycrVDlrIEsQ5tsW5N1Y3lRwLktrVUwJU9xVvJTzPg08rTcmSCpfMiG5+xLbD+HdeHx/O3l4xPFXIi50lA1iuX5hyw0YxLtegBErY4YkApd5BPrSNFYmecxJGpHaVVS+wwjsa9Fgez7kriJZkkLhiVwxABwwEaNxCnYEL0cEABsiJAVZrvSDFcVYTb8WJKNPaLEPZcN4zWkq96L715Y/U7FyybMysVToTAr+i0w54xB3lvJURVlSxjqQZgbWJcUg5U4tJBQA4SsixQ5cCjOJd+Zw2ySSE2gsaSXRpcaQzt24DtzIC4ZW+BVqez2126pGCcE5A7aVwmJDlcAdoQTPU0ywpnqbUEnmaxSpp1sIZGr4Fwj0TAL9AwTaBwj0zkWgf6BcOhSRFF+pc6dJJIyyZM+ZY/JjkkkKKh+UPfL16Kf2U/asaLnNdnpQLk5w7wjr8Asb5LmIyHOp0dehxbR/gOgKE4QhSTfmNg6xr1f4roq0kdkNTZ3HHf3K3etJ7SOuE6cTxgvc0dgPA9cOwkng+64ZVSIRE9mLuk+MmoLTcyU4WmzvpMDq82e4wsK3LLDJ/1lg/6pwnMlkFAR2/XEMMcMTy+h41G5VdTZ95qqqfkNfmCERQ1lGo2N58d417hxqjnuiqq79TKBzK9e/a+aC7e/zSj51NvbPQyXLPVpAT3G26+HgKapbCj3Zqi/y7cw4kqODZ6498sbBpaFFdQ//w1S5cD1zCl8uM3IeNd2PVodDl9FX1+HEjPPWZdhvAqY8zaDLVhd/hHF5QVEtH3R54AKSVpeVbnMHW4byTUofJKIEDMahDKlUutA0EgRl0L5/lIav1raVku6hDuWEFg+GzZ8FZTY0/7h4N78B</diagram><diagram id="E3LjvizbVDPop4t1rhLU" name="Sequence Diagram">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram><diagram id="cH81ksLA5Dzl1n_XovKZ" name="Define API">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram><diagram id="IiLFnCqZhPhYSi7_yf6Q" name="Analyze Solution &amp; Consider Trade-Offs">dZBND8IgDIZ/DXcGMfE+p1487eCZjDpIGF0YZou/XhbASaaHJu3Ttx95Ca+H5eLEqG4owRBGe6cl4SfCWBUigFH0UIBV0epXhjTRp5YwFUKPaLweS9ihtdD5ggnncC5lDzT7N9pOGNjRu5ZeRXo80I1fQfcqH6po6gwiixOYlJA4fyHeEF47RB+zYanBrM5kX+Lc+U/385gD638MhGTbHYrCft68AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-15T17:39:24.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pS5UmIrSTeGKahTP7kSj" version="20.3.0" type="github" pages="7">
+  <diagram id="BEm-g0U1VOa67Bzzpys7" name="Problem &amp; Assumptions">
+    <mxGraphModel dx="2128" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EXD3Z6oIBOr7S9_geh6J-1" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;Design Problem&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;-Need to scrape data from Turo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Need to provide an interface for users:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;-Web, possibly mobile&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Need to store scraped data from Turo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Need to query the data from UI&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Users:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Random curious person&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Low volume hosts on Turo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-High volume hosts&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Me&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Needs to view how much per/x amount of time they can make for their vehicle&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Needs to change location to determine how much to make&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-See how much more to make for adding delivery&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Average price for model&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Average Utilization&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Paid: link their Turo vehicle to the service to view exact analytics updated daily&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-View top performing vehicles&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="-130" width="440" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RTJvNLbxPvpqfqzpSxGH" name="Collaboration Diagram">
+    <mxGraphModel dx="1065" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cbQd6HSXNTazWTkeKynu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L9Fn75I4c57KLiO9HRuR-29" target="L9Fn75I4c57KLiO9HRuR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwOwND81zghB2LccHUqJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="VwOwND81zghB2LccHUqJ-1" target="VwOwND81zghB2LccHUqJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwOwND81zghB2LccHUqJ-4" value="Data Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VwOwND81zghB2LccHUqJ-3">
+          <mxGeometry x="-0.1893" y="1" relative="1" as="geometry">
+            <mxPoint x="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwOwND81zghB2LccHUqJ-1" value="&lt;b&gt;Client&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwOwND81zghB2LccHUqJ-2" target="VwOwND81zghB2LccHUqJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-4" value="Turo Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9Fn75I4c57KLiO9HRuR-3">
+          <mxGeometry x="-0.2459" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwOwND81zghB2LccHUqJ-2" target="L9Fn75I4c57KLiO9HRuR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-10" value="Data Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9Fn75I4c57KLiO9HRuR-9">
+          <mxGeometry x="0.2397" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwOwND81zghB2LccHUqJ-2" value="&lt;b&gt;Request/Account Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;" edge="1" parent="1" source="L9Fn75I4c57KLiO9HRuR-15" target="L9Fn75I4c57KLiO9HRuR-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="541" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-28" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9Fn75I4c57KLiO9HRuR-27">
+          <mxGeometry x="-0.6358" y="-1" relative="1" as="geometry">
+            <mxPoint x="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-6" value="&lt;b&gt;Longterm Data Warehouse&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L9Fn75I4c57KLiO9HRuR-8" target="VwOwND81zghB2LccHUqJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-12" value="Turo Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9Fn75I4c57KLiO9HRuR-11">
+          <mxGeometry x="0.2683" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="L9Fn75I4c57KLiO9HRuR-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521.6666666666667" y="204.66666158040368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-2" value="Data&lt;br&gt;Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cbQd6HSXNTazWTkeKynu-1">
+          <mxGeometry x="0.3432" y="1" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-8" value="&lt;b&gt;DB Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-15" value="&lt;b&gt;Key-val Data&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L9Fn75I4c57KLiO9HRuR-29" target="L9Fn75I4c57KLiO9HRuR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-31" value="Scraped Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L9Fn75I4c57KLiO9HRuR-30">
+          <mxGeometry x="-0.3365" y="-2" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L9Fn75I4c57KLiO9HRuR-29" target="cbQd6HSXNTazWTkeKynu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9Fn75I4c57KLiO9HRuR-29" value="&lt;b&gt;Scraping Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-4" value="&lt;b&gt;Images (S3)&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="272.5" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cbQd6HSXNTazWTkeKynu-6" target="L9Fn75I4c57KLiO9HRuR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-8" value="url to scrape" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cbQd6HSXNTazWTkeKynu-7">
+          <mxGeometry x="-0.264" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cbQd6HSXNTazWTkeKynu-6" value="&lt;b&gt;Scraping Service Schedular&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="KF0MO2zLL9nNHn486hNj" name="Services Diagram">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LS8TNdXTnnzo7AySAe1Z-1" value="&lt;b&gt;Request/Account Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS8TNdXTnnzo7AySAe1Z-2" value="&lt;b&gt;DB Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS8TNdXTnnzo7AySAe1Z-3" value="&lt;b&gt;Scraping Service&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LS8TNdXTnnzo7AySAe1Z-4" value="&lt;b&gt;Scraping Service Schedular&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uhClVXtoBr3dz5SatWcw-1" value="&lt;b&gt;Longterm Data Warehouse&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="310" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="uhClVXtoBr3dz5SatWcw-2" value="&lt;b&gt;Key-val Data&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="uhClVXtoBr3dz5SatWcw-3" value="&lt;b&gt;Images (S3)&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="310" width="120" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gduqD52Sczb5Gq0pqgNj" name="Draft Sequence Steps">
+    <mxGraphModel dx="1065" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hKIg0X8K77LH9XqdgJer-1" value="&lt;b&gt;Data Scraping Sequence&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-3" value="Scraping Scheduler Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="50" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hKIg0X8K77LH9XqdgJer-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="70" as="sourcePoint" />
+            <mxPoint x="80" y="362.7586206896552" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-6" value="Scraping Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.6600000000001" y="80" as="sourcePoint" />
+            <mxPoint x="199.6600000000001" y="362.7586206896551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="200" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="50" as="sourcePoint" />
+            <mxPoint x="290" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKIg0X8K77LH9XqdgJer-13" value="Consider adding a queue service&lt;br&gt;as the search locality increases" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E3LjvizbVDPop4t1rhLU" name="Sequence Diagram">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cH81ksLA5Dzl1n_XovKZ" name="Define API">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IiLFnCqZhPhYSi7_yf6Q" name="Analyze Solution &amp; Consider Trade-Offs">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
