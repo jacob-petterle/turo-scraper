@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T18:32:02.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Uwj1Zeo2n3Q2EhqZs14Z" version="20.3.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-09-15T19:23:19.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GmICq2Dmg70KRYu5e9DU" version="20.3.0" type="github" pages="6">
   <diagram id="BEm-g0U1VOa67Bzzpys7" name="Problem &amp; Assumptions">
-    <mxGraphModel dx="2128" dy="1639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1560" dy="1399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EXD3Z6oIBOr7S9_geh6J-1" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b&gt;Design Problem&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;-Need to scrape data from Turo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Need to provide an interface for users:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;-Web, possibly mobile&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Need to store scraped data from Turo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Need to query the data from UI&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Users:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Random curious person&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Low volume hosts on Turo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-High volume hosts&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Me&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Users&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Needs to view how much per/x amount of time they can make for their vehicle&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Needs to change location to determine how much to make&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-See how much more to make for adding delivery&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Average price for model&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Average Utilization&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-Paid: link their Turo vehicle to the service to view exact analytics updated daily&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-View top performing vehicles&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="-130" width="440" height="330" as="geometry" />
+        <mxCell id="CEzHKdM_lMBFF9zKNyrZ-1" value="&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Design Problem&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;Turo is a car sharing website similar to Airbnb, but for cars! To date, it does not appear that&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;a pure analytics (based on rudimentary web searches)&amp;nbsp; app exists that allows hosts or those interested&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;in renting their vehicles on Turo to analyze market data, minimizing their effectiveness in renter their vehicles (there is a platform call CarSync that let&#39;s&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;you manage your fleet, and some basic analytics).&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(0, 0, 0);&quot;&gt;Users:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Random curious person&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Low volume hosts on Turo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-High volume hosts&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Me&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Users Requirements&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Needs to view how much per/x amount of time they can make for their vehicle&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Needs to change location to determine how much to make&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-See how much more to make for adding delivery&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Average price for model&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Average Utilization&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Paid: link their Turo vehicle to the service to view exact analytics updated daily&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-View top performing vehicles&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Brainstorming:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Need to scrape data from Turo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Need to provide an interface for users:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Web, possibly mobile&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Need to store scraped data from Turo&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;-Need to query the data from UI&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeColor=default;strokeWidth=0.5;fontSize=10;fontColor=#FF3B14;fillColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-1090" width="340" height="520" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="RTJvNLbxPvpqfqzpSxGH" name="Collaboration Diagram">
-    <mxGraphModel dx="865" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,7 +167,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KF0MO2zLL9nNHn486hNj" name="Services Diagram">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -198,142 +198,319 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="gduqD52Sczb5Gq0pqgNj" name="Draft Sequence Steps">
-    <mxGraphModel dx="716" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="E3LjvizbVDPop4t1rhLU" name="Sequence Diagram">
+    <mxGraphModel dx="1826" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Fg6BfWJsBh7lM8uoSn6c-5" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b style=&quot;line-height: 0.4;&quot;&gt;for each item on page&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;horizontal=1;spacing=2;spacingTop=-8;strokeWidth=0.5;" vertex="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;alt&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;if [new_data]&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;horizontal=1;spacing=2;spacingTop=-8;strokeWidth=0.5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="415" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-2" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;&lt;b style=&quot;line-height: 0.4;&quot;&gt;for each item on page&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;horizontal=1;spacing=2;spacingTop=-8;strokeWidth=0.5;" vertex="1" parent="1">
           <mxGeometry x="110" y="90" width="350" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="199.6600000000001" y="80" as="sourcePoint" />
-            <mxPoint x="199.6600000000001" y="362.7586206896551" as="targetPoint" />
+            <mxPoint x="199.66000000000008" y="80" as="sourcePoint" />
+            <mxPoint x="199" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;alt&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;horizontal=1;spacing=2;spacingTop=-8;strokeWidth=0.5;" vertex="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-4" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;alt&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;if [cached_thumbnail != thumbnail]&lt;/span&gt;&lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;horizontal=1;spacing=2;spacingTop=-8;strokeWidth=0.5;" vertex="1" parent="1">
           <mxGeometry x="140" y="170" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-1" value="&lt;b&gt;Data Scraping Sequence&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-5" value="&lt;b&gt;&lt;font color=&quot;#ff3b14&quot;&gt;Data Scraping Sequence&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-3" value="Scraping Scheduler Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-6" value="Scraping Scheduler Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="30" y="50" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="hKIg0X8K77LH9XqdgJer-3" edge="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X4ZFKEGerCu-n7zN_8Fe-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="70" as="sourcePoint" />
-            <mxPoint x="80" y="362.7586206896552" as="targetPoint" />
+            <mxPoint x="80" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-6" value="Scraping Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-8" value="Scraping Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="160" y="50" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="120" as="sourcePoint" />
             <mxPoint x="200" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1l6pEuuSEOCLvdX02KcD-1" value="url to scrape" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="hKIg0X8K77LH9XqdgJer-10">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-10" value="url to scrape" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-9">
           <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
             <mxPoint x="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="50" as="sourcePoint" />
             <mxPoint x="290" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hKIg0X8K77LH9XqdgJer-13" value="Consider adding a queue service&lt;br&gt;as the scraping load increases" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-12" value="Consider adding a queue service&lt;br&gt;as the scraping load increases" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HdAG3agz7RMmRjFmc5Kc-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="120" as="sourcePoint" />
             <mxPoint x="340" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-12" value="request thumbnail &lt;br style=&quot;font-size: 8px;&quot;&gt;image from &lt;br style=&quot;font-size: 8px;&quot;&gt;cached thumbnail url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="HdAG3agz7RMmRjFmc5Kc-3">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-14" value="request thumbnail &lt;br style=&quot;font-size: 8px;&quot;&gt;image from &lt;br style=&quot;font-size: 8px;&quot;&gt;cached thumbnail url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-13">
           <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
             <mxPoint x="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-2" value="S3 FS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-15" value="S3 FS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="300" y="50" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="339.71000000000004" y="80" as="sourcePoint" />
-            <mxPoint x="339.71000000000004" y="362.7586206896551" as="targetPoint" />
+            <mxPoint x="339" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="160" as="sourcePoint" />
             <mxPoint x="200" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-6" value="cached thumbnail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="V8ZWdsh_RHzfwyg-Vbhc-5">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-18" value="cached thumbnail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-17">
           <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
             <mxPoint x="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-10" value="if [cached_thumbnail != thumbnail]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="150" y="180" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="210" as="sourcePoint" />
             <mxPoint x="340" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-15" value="Upload thumbnail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="V8ZWdsh_RHzfwyg-Vbhc-13">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-20" value="Upload thumbnail" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-19">
           <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
             <mxPoint x="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="240" as="sourcePoint" />
             <mxPoint x="200" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V8ZWdsh_RHzfwyg-Vbhc-17" value="thumbnail url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="V8ZWdsh_RHzfwyg-Vbhc-16">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-22" value="thumbnail url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-21">
           <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
             <mxPoint x="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fg6BfWJsBh7lM8uoSn6c-1" value="Influx DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-23" value="Influx DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="50" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fg6BfWJsBh7lM8uoSn6c-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="449.71000000000004" y="80" as="sourcePoint" />
-            <mxPoint x="449.71000000000004" y="362.7586206896551" as="targetPoint" />
+            <mxPoint x="449" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fg6BfWJsBh7lM8uoSn6c-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200.0000000000001" y="270" as="sourcePoint" />
+            <mxPoint x="200" y="270" as="sourcePoint" />
             <mxPoint x="450" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fg6BfWJsBh7lM8uoSn6c-4" value="Post data with thumbnail url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="Fg6BfWJsBh7lM8uoSn6c-3">
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-26" value="Post data with thumbnail url" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-25">
           <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
             <mxPoint x="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="E3LjvizbVDPop4t1rhLU" name="Sequence Diagram">
-    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-27" value="&lt;b&gt;&lt;font color=&quot;#ff3b14&quot;&gt;Data Parsing Sequence&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-28" value="Data Parsing&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="355" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X4ZFKEGerCu-n7zN_8Fe-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="375" as="sourcePoint" />
+            <mxPoint x="110" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-30" value="Influx DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="355" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.71000000000004" y="385" as="sourcePoint" />
+            <mxPoint x="220" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="405" as="sourcePoint" />
+            <mxPoint x="220" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-33" value="poll for DB changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-32">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="435" as="sourcePoint" />
+            <mxPoint x="220" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-35" value="GET new data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-34">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-36" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="465" as="sourcePoint" />
+            <mxPoint x="220" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-37" value="new data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-36">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.71000000000004" y="385" as="sourcePoint" />
+            <mxPoint x="330" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-39" value="Key-val/SQL&lt;br&gt;DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="355" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="495" as="sourcePoint" />
+            <mxPoint x="330" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-41" value="POST parsed Turo vehicle data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-40">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-42" value="&lt;b&gt;&lt;font color=&quot;#ff3b14&quot;&gt;Client Data Request Sequence&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="555" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-43" value="Data Parsing&lt;br style=&quot;font-size: 10px;&quot;&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="355" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-44" value="Key-val/SQL&lt;br style=&quot;font-size: 10px;&quot;&gt;DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="355" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-45" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-46" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.57999999999993" y="615" as="sourcePoint" />
+            <mxPoint x="109.57999999999993" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-47" value="Request/Account&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="585" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="615" as="sourcePoint" />
+            <mxPoint x="230" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="635" as="sourcePoint" />
+            <mxPoint x="230" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-50" value="Request Turo Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-49">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-51" value="DB Service" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-52" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="615" as="sourcePoint" />
+            <mxPoint x="350" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="645" as="sourcePoint" />
+            <mxPoint x="350" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-54" value="Request Turo Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-53">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-55" value="Key-val/SQL DB" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="420" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-56" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="615" as="sourcePoint" />
+            <mxPoint x="450" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="655" as="sourcePoint" />
+            <mxPoint x="450" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-58" value="request Turo Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-57">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="675" as="sourcePoint" />
+            <mxPoint x="350" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-60" value="Turo Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-59">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-61" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="685" as="sourcePoint" />
+            <mxPoint x="350" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-62" value="Return Turo Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-61">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-63" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="695" as="sourcePoint" />
+            <mxPoint x="230" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4ZFKEGerCu-n7zN_8Fe-64" value="Request Turo Metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="X4ZFKEGerCu-n7zN_8Fe-63">
+          <mxGeometry x="0.1278" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
