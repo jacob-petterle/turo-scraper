@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T20:06:55.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VwxJL9gHmsGXmnTvfKgn" version="20.3.1" type="device" pages="6"><diagram id="caipq0Zi8jMYTzpVwic8" name="Problem">ddHBDoMgDADQr+GOEDN3dm67ePKwM5FOSNAaZNHt66cB54jbifJaKCmE5+10saJXJUowhFE5EX4ijCXskM3LIk8vKT96aKyWoWiDSr8gIA360BKGqNAhGqf7GGvsOqhdZMJaHOOyO5q4ay8a2EFVC7PXm5ZOec1SuvkVdKPWzgkNmVasxQEGJSSOX8QLwnOL6HzUTjmYZXjrXPy585/s52EWOvfjwBxsd8+b6Id48QY=</diagram><diagram id="0qn9n6EWcN4d0jXP8-5p" name="Use Case Diagram">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram><diagram id="b9QRMDCg_2D02ucUDwC-" name="Activity Diagram (If Applicable)">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram><diagram id="RTJvNLbxPvpqfqzpSxGH" name="Collaboration Diagram">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram><diagram id="E3LjvizbVDPop4t1rhLU" name="Sequence Diagram">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram><diagram id="cH81ksLA5Dzl1n_XovKZ" name="Class Diagram">ddHBDoMgDADQr+GOMBPvzm2XnTzsTKQTErQGWWT7+mnAOeJ2IeW1UFIILzt/tmJQV5RgCKPSE34kjPHiMK8LPAPkLA/QWi0DZRvU+gURadSHljAmhQ7ROD2k2GDfQ+MSE9bilJbd0aRdB9HCDupGmL3etHQqaJHTzS+gW7V2zmjMdGItjjAqIXH6Il4RXlpEF6LOl2CW2a1zCedOf7Kfh1no3Y8Dc7DdPW+SD+LVGw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-16T18:37:18.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qBWysu5voSm_L3gPtYtg" version="20.3.1" type="github" pages="6">
+  <diagram id="caipq0Zi8jMYTzpVwic8" name="Problem">
+    <mxGraphModel dx="730" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sW1Mit5LW0IJ_BD4tYRS-1" value="&lt;b&gt;Problem:&lt;/b&gt;&lt;br&gt;In order to populate data on a database with Turo vehicle data, data must be scraped from the Turo website &amp;amp; uploaded. This service should be able to handle any number of urls posted from a scraping scheduler service. Raw data should be uploaded to the database with exception of thumbnails, which should be uploaded to a FS, and the url should be uploaded to the time series DB.&lt;br&gt;&lt;br&gt;&lt;b&gt;Requirements:&lt;br&gt;&lt;/b&gt;-API should accept urls &amp;amp; optional scrape filters -&amp;gt;&amp;nbsp;&lt;br&gt;-url should be scraped for relevant information based on optional scrape filters&lt;br&gt;-If thumbnail has changed, upload to FS&lt;br&gt;-Raw data should be uploaded to time series DB&lt;br&gt;&lt;br&gt;&lt;b&gt;Users:&lt;br&gt;&lt;/b&gt;-Scraping scheduler&lt;br&gt;-manual api calls&lt;br&gt;&lt;br&gt;&lt;b&gt;Logging:&lt;br&gt;&lt;/b&gt;-Need to see summary of listings added to dictionary &amp;amp; head of data&lt;br&gt;-Need to see summary of listings scraped &amp;amp; head of data&lt;br&gt;-Need url of image if new&lt;br&gt;-Need api calls&lt;br&gt;&lt;br&gt;&lt;b&gt;Required Data To Scrape:&lt;/b&gt;&lt;br&gt;-Unique Listing ID (user Turo url ID)&lt;br&gt;-Vehicle Make&lt;br&gt;-Vehicle Model&lt;br&gt;-Trim&lt;br&gt;-Vehicle Year&lt;br&gt;-# of Trips&lt;br&gt;-Rating&lt;br&gt;-# ratings&lt;br&gt;-# Reviews&lt;br&gt;-List of delivery locations &amp;amp; prices&lt;br&gt;-Thumbnail&lt;br&gt;-Rental date&lt;br&gt;-Per day price&lt;br&gt;-TuroGo Enabled&lt;br&gt;-Class of vehicle&lt;br&gt;-Distance included&lt;br&gt;&lt;br&gt;-&lt;b&gt;Optionally&lt;/b&gt;:&lt;br&gt;-Extras offered&lt;br&gt;-Last-minute price boost&lt;br&gt;-3+ day&lt;br&gt;-7+ day&lt;br&gt;-30+ day&lt;br&gt;-Early bird discount&lt;br&gt;&lt;div&gt;-Owner Availability times&lt;/div&gt;&lt;div&gt;-Advanced Notice for host&lt;/div&gt;&lt;div&gt;-All-star host&lt;/div&gt;&lt;div&gt;-Host rating&lt;/div&gt;&lt;div&gt;-response rate&lt;/div&gt;&lt;div&gt;-# host trips&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="310" height="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0qn9n6EWcN4d0jXP8-5p" name="Use Case Diagram">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b9QRMDCg_2D02ucUDwC-" name="Activity Diagram (If Applicable)">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RTJvNLbxPvpqfqzpSxGH" name="Collaboration Diagram">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E3LjvizbVDPop4t1rhLU" name="Sequence Diagram">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cH81ksLA5Dzl1n_XovKZ" name="Class Diagram">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
