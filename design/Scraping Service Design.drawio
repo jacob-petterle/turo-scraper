@@ -1,20 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T18:37:18.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qBWysu5voSm_L3gPtYtg" version="20.3.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-16T18:45:28.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Bjp0nIpyvmlrU-dQRDBg" version="20.3.1" type="github" pages="6">
   <diagram id="caipq0Zi8jMYTzpVwic8" name="Problem">
-    <mxGraphModel dx="730" dy="308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1065" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sW1Mit5LW0IJ_BD4tYRS-1" value="&lt;b&gt;Problem:&lt;/b&gt;&lt;br&gt;In order to populate data on a database with Turo vehicle data, data must be scraped from the Turo website &amp;amp; uploaded. This service should be able to handle any number of urls posted from a scraping scheduler service. Raw data should be uploaded to the database with exception of thumbnails, which should be uploaded to a FS, and the url should be uploaded to the time series DB.&lt;br&gt;&lt;br&gt;&lt;b&gt;Requirements:&lt;br&gt;&lt;/b&gt;-API should accept urls &amp;amp; optional scrape filters -&amp;gt;&amp;nbsp;&lt;br&gt;-url should be scraped for relevant information based on optional scrape filters&lt;br&gt;-If thumbnail has changed, upload to FS&lt;br&gt;-Raw data should be uploaded to time series DB&lt;br&gt;&lt;br&gt;&lt;b&gt;Users:&lt;br&gt;&lt;/b&gt;-Scraping scheduler&lt;br&gt;-manual api calls&lt;br&gt;&lt;br&gt;&lt;b&gt;Logging:&lt;br&gt;&lt;/b&gt;-Need to see summary of listings added to dictionary &amp;amp; head of data&lt;br&gt;-Need to see summary of listings scraped &amp;amp; head of data&lt;br&gt;-Need url of image if new&lt;br&gt;-Need api calls&lt;br&gt;&lt;br&gt;&lt;b&gt;Required Data To Scrape:&lt;/b&gt;&lt;br&gt;-Unique Listing ID (user Turo url ID)&lt;br&gt;-Vehicle Make&lt;br&gt;-Vehicle Model&lt;br&gt;-Trim&lt;br&gt;-Vehicle Year&lt;br&gt;-# of Trips&lt;br&gt;-Rating&lt;br&gt;-# ratings&lt;br&gt;-# Reviews&lt;br&gt;-List of delivery locations &amp;amp; prices&lt;br&gt;-Thumbnail&lt;br&gt;-Rental date&lt;br&gt;-Per day price&lt;br&gt;-TuroGo Enabled&lt;br&gt;-Class of vehicle&lt;br&gt;-Distance included&lt;br&gt;&lt;br&gt;-&lt;b&gt;Optionally&lt;/b&gt;:&lt;br&gt;-Extras offered&lt;br&gt;-Last-minute price boost&lt;br&gt;-3+ day&lt;br&gt;-7+ day&lt;br&gt;-30+ day&lt;br&gt;-Early bird discount&lt;br&gt;&lt;div&gt;-Owner Availability times&lt;/div&gt;&lt;div&gt;-Advanced Notice for host&lt;/div&gt;&lt;div&gt;-All-star host&lt;/div&gt;&lt;div&gt;-Host rating&lt;/div&gt;&lt;div&gt;-response rate&lt;/div&gt;&lt;div&gt;-# host trips&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="sW1Mit5LW0IJ_BD4tYRS-1" value="&lt;b&gt;Problem:&lt;/b&gt;&lt;br&gt;In order to populate data on a database with Turo vehicle data, data must be scraped from the Turo website &amp;amp; uploaded. This service should be able to handle any number of urls posted from a scraping scheduler service. Raw data should be uploaded to the database with exception of thumbnails, which should be uploaded to a FS, and the url should be uploaded to the time series DB.&lt;br&gt;&lt;br&gt;&lt;b&gt;Requirements:&lt;br&gt;&lt;/b&gt;-API should accept urls &amp;amp; optional scrape filters -&amp;gt;&amp;nbsp;&lt;br&gt;-url should be scraped for relevant information based on optional scrape filters&lt;br&gt;-If thumbnail has changed, upload to FS&lt;br&gt;-Raw data should be uploaded to time series DB&lt;br&gt;&lt;br&gt;&lt;b&gt;Users:&lt;br&gt;&lt;/b&gt;-Scraping scheduler&lt;br&gt;-manual api calls&lt;br&gt;&lt;br&gt;&lt;b&gt;Logging:&lt;br&gt;&lt;/b&gt;-Need to see summary of listings added to DB &amp;amp; head of data&lt;br&gt;-Need to see summary of listings scraped &amp;amp; head of data&lt;br&gt;-Need url of image if new&lt;br&gt;-Need api calls&lt;br&gt;&lt;br&gt;&lt;b&gt;Required Data To Scrape:&lt;/b&gt;&lt;br&gt;-Unique Listing ID (user Turo url ID)&lt;br&gt;-Vehicle Make&lt;br&gt;-Vehicle Model&lt;br&gt;-Trim&lt;br&gt;-Vehicle Year&lt;br&gt;-# of Trips&lt;br&gt;-Rating&lt;br&gt;-# ratings&lt;br&gt;-# Reviews&lt;br&gt;-List of delivery locations &amp;amp; prices&lt;br&gt;-Thumbnail&lt;br&gt;-Rental date&lt;br&gt;-Per day price&lt;br&gt;-TuroGo Enabled&lt;br&gt;-Class of vehicle&lt;br&gt;-Distance included&lt;br&gt;&lt;br&gt;-&lt;b&gt;Optionally&lt;/b&gt;:&lt;br&gt;-Extras offered&lt;br&gt;-Last-minute price boost&lt;br&gt;-3+ day&lt;br&gt;-7+ day&lt;br&gt;-30+ day&lt;br&gt;-Early bird discount&lt;br&gt;&lt;div&gt;-Owner Availability times&lt;/div&gt;&lt;div&gt;-Advanced Notice for host&lt;/div&gt;&lt;div&gt;-All-star host&lt;/div&gt;&lt;div&gt;-Host rating&lt;/div&gt;&lt;div&gt;-response rate&lt;/div&gt;&lt;div&gt;-# host trips&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="310" height="850" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="0qn9n6EWcN4d0jXP8-5p" name="Use Case Diagram">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zse7T27fTIH4ahiTM5nG-1" value="&lt;b&gt;Scraping&lt;br&gt;Scheduler&lt;br&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zse7T27fTIH4ahiTM5nG-3" value="&lt;b&gt;Admin&lt;br&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zse7T27fTIH4ahiTM5nG-4" value="Scrape required data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zse7T27fTIH4ahiTM5nG-5" value="Scrape optional data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zse7T27fTIH4ahiTM5nG-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="zse7T27fTIH4ahiTM5nG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="150" as="sourcePoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zse7T27fTIH4ahiTM5nG-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zse7T27fTIH4ahiTM5nG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="268.6133732881922" y="103.8053892074895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zse7T27fTIH4ahiTM5nG-8" value="View Items added to DB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="110" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="m0AArXn-tRAfNud7FIpE-1" value="View Items&lt;br&gt;scraped" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="110" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="2TvVeAhI7jEPd0MKH2li-1" value="View new &lt;br&gt;thumbnail url" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="400" width="110" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="wSbw9-VT_Lb8DX0gDGvC-1" value="View API Calls" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="110" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="BIC-_8Cp9dVTEz8O6u69-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zse7T27fTIH4ahiTM5nG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="320" as="sourcePoint" />
+            <mxPoint x="260" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIC-_8Cp9dVTEz8O6u69-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zse7T27fTIH4ahiTM5nG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="330" as="sourcePoint" />
+            <mxPoint x="276.1091270347399" y="109.74873734152925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIC-_8Cp9dVTEz8O6u69-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="zse7T27fTIH4ahiTM5nG-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="340" as="sourcePoint" />
+            <mxPoint x="276.1091270347399" y="199.74873734152925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIC-_8Cp9dVTEz8O6u69-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="m0AArXn-tRAfNud7FIpE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="360" as="sourcePoint" />
+            <mxPoint x="269.1223259069309" y="289.7348091516493" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIC-_8Cp9dVTEz8O6u69-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="2TvVeAhI7jEPd0MKH2li-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="380" as="sourcePoint" />
+            <mxPoint x="260" y="358.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIC-_8Cp9dVTEz8O6u69-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wSbw9-VT_Lb8DX0gDGvC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="260" y="448.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
