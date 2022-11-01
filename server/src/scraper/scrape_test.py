@@ -1,5 +1,6 @@
 import re
 import time
+from typing import Type
 
 from selenium.webdriver import Keys
 from selenium.webdriver.chrome.options import Options
@@ -14,7 +15,7 @@ def main():
     attempts = 0
     while True:
         driver.get("https://turo.com/us/en/search?defaultZoomLevel=11&delivery=false&deliveryLocationType=googlePlace&endDate=09%2F14%2F2022&endTime=11%3A00&isMapSearch=false&itemsPerPage=200&latitude=40.78994&location=Salt%20Lake%20City%20International%20Airport%20%28SLC%29%2C%20West%20Terminal%20Drive%2C%20Salt%20Lake%20City%2C%20UT%2C%20USA&locationType=CITY&longitude=-111.97907&pickupType=ALL&placeId=ChIJ6fTXZ4vzUocRGUhZ9SZDH28&sortType=RELEVANCE&startDate=09%2F14%2F2022&startTime=10%3A00&useDefaultMaximumDistance=true")
-        car_text_list = scroll_element_search(driver)
+        car_text_list: Type["Driver"] = scroll_element_search(driver)
         if car_text_list:
             break
         if attempts >= 3:
