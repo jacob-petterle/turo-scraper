@@ -8,13 +8,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import undetected_chromedriver as uc
+import logging
 
 def main():
+    logging.basicConfig(level=logging.INFO)
+
     driver = build_driver()
 
     attempts = 0
     while True:
-        driver.get("https://turo.com/us/en/search?defaultZoomLevel=11&delivery=false&deliveryLocationType=googlePlace&endDate=09%2F14%2F2022&endTime=11%3A00&isMapSearch=false&itemsPerPage=200&latitude=40.78994&location=Salt%20Lake%20City%20International%20Airport%20%28SLC%29%2C%20West%20Terminal%20Drive%2C%20Salt%20Lake%20City%2C%20UT%2C%20USA&locationType=CITY&longitude=-111.97907&pickupType=ALL&placeId=ChIJ6fTXZ4vzUocRGUhZ9SZDH28&sortType=RELEVANCE&startDate=09%2F14%2F2022&startTime=10%3A00&useDefaultMaximumDistance=true")
+        driver.get("https://turo.com/us/en/search?country=US&defaultZoomLevel=11&delivery=false&deliveryLocationType=city&endDate=02%2F24%2F2023&endTime=10%3A00&isMapSearch=false&itemsPerPage=200&latitude=40.7607793&location=Salt%20Lake%20City%2C%20UT%2C%20USA&locationType=CITY&longitude=-111.89104739999999&pickupType=ALL&placeId=ChIJ7THRiJQ9UocRyjFNSKC3U1s&region=UT&sortType=RELEVANCE&startDate=02%2F21%2F2023&startTime=10%3A00&useDefaultMaximumDistance=true")
         car_text_list: Type["Driver"] = scroll_element_search(driver)
         if car_text_list:
             break
@@ -39,12 +42,11 @@ def main():
     print("Done")
     print("Number of Listings: {}".format(len(car_set)))
     print("Duplicate elements: {}".format(count))
-    time.sleep(1000)
     driver.quit()
 
 def build_driver():
     options = Options()
-    options.headless = False
+    options.headless = True
     options.add_argument("--window-size=1920,1200")
     return uc.Chrome(options=options)
 
@@ -56,10 +58,10 @@ def scroll_element_search(driver, scroll_count=10000):
     # Get scroll height
     last_height = driver.execute_script("return document.body.scrollHeight")
 
-
     while True:
         # Scroll down to bottom
-        curr_element = find_element_xpath(driver, '//*[@id="pageContainer-content"]/div[2]/div[1]/div[2]/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div')
+        curr_element = find_element_xpath(driver, '//*[@id="pageContainer-content"]/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div/div/div[1]/div')
+        logging.info("Vehicle grid: %s", curr_element)
         if not curr_element:
             print("Page Load error")
             return None
@@ -94,10 +96,11 @@ def focus_element_xpath(driver, xpath):
 
 def find_element_xpath(driver, xpath):
     try:
-        car_grid = WebDriverWait(driver, 2).until(
+        car_grid = WebDriverWait(driver, 3).until(
             EC.presence_of_element_located((By.XPATH, xpath))
         )
     except:
+        logging.error("Failed to locate 'car_grid'")
         return None
     return car_grid
 
